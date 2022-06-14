@@ -1,12 +1,12 @@
-import Product from "./components/Product"
+// import Product from "./components/Product"
+import Product from './Element/Product';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <h1>Admin Dashoard</h1>
       <Product />
-        {/* <Product /> */}
 
     </div>
   );
